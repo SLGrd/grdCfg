@@ -1,0 +1,9 @@
+C:\Tutorials\GridConfig\bin\Debug\GridConfig.exe.config
+C:\Tutorials\GridConfig\bin\Debug\GridConfig.exe
+C:\Tutorials\GridConfig\bin\Debug\GridConfig.pdb
+C:\Tutorials\GridConfig\obj\Debug\GridConfig.csprojAssemblyReference.cache
+C:\Tutorials\GridConfig\obj\Debug\GridConfig.Properties.Resources.resources
+C:\Tutorials\GridConfig\obj\Debug\GridConfig.csproj.GenerateResource.cache
+C:\Tutorials\GridConfig\obj\Debug\GridConfig.exe
+C:\Tutorials\GridConfig\obj\Debug\GridConfig.pdb
+C:\Tutorials\GridConfig\obj\Debug\GridConfig.FrmGrd.resources
