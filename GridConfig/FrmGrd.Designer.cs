@@ -43,13 +43,14 @@
             this.dgvGrd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvGrd.BackgroundColor = System.Drawing.SystemColors.GrayText;
             this.dgvGrd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGrd.Location = new System.Drawing.Point(154, 20);
             this.dgvGrd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvGrd.Name = "dgvGrd";
             this.dgvGrd.Size = new System.Drawing.Size(665, 549);
             this.dgvGrd.TabIndex = 0;
-            this.dgvGrd.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvGrd_CellMouseDown);
+            this.dgvGrd.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DgvGrd_CellMouseDown);
             // 
             // btnDados
             // 
@@ -143,14 +144,14 @@
             this.btnAll.Name = "btnAll";
             this.btnAll.Size = new System.Drawing.Size(111, 47);
             this.btnAll.TabIndex = 1;
-            this.btnAll.Text = "ALL";
+            this.btnAll.Text = "Menu";
             this.btnAll.UseVisualStyleBackColor = false;
             this.btnAll.Click += new System.EventHandler(this.BtnAll_Click);
             // 
             // FrmGrd
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(837, 583);
             this.Controls.Add(this.btnAll);
             this.Controls.Add(this.btnBehavior);
